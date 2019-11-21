@@ -15,6 +15,10 @@ Waterfall of Meaning is based on a technology in which a machine learning system
 
 These dimensions help the machine represent some of the subtleties of language usage: in a sense, it's a way of transforming meaning into math. Certain directions in a word embedding map may reflect contrasts such as female vs. male, or good vs. bad. Understanding how these implicit dimensions form is currently a subject of great interest, both as a scientific question and as a type of transparency, helping us peer inside the black box of this type of AI. But we can also view the embedding a model of how humans have collectively used words, giving us a way to measure connotations quantitatively. In the end, this piece is not so much a portrait of a  machine but a picture of how humans speak.
 
+### Layout
+This app has two parts that communicate through `postMessage`.  To try it out locally, open `/index.html` and `/input.html` in separate browser windows.  This hacks in `mono.html` as well.
+
+
 ### To run:
 
 
