@@ -30,7 +30,7 @@ let NEIGHBOR_COUNT = 30;
 let emb: WordEmbedding;
 
 const visAxes = [
-  ['machine', 'human'], ['he', 'she'], ['bad', 'good'], ['expensive', 'cheap']
+  ['art', 'science'], ['intention', 'improvisation'], ['water', 'fire'], ['harry', 'hermione']
 ];
 let vis = new Visualization(visAxes);
 
