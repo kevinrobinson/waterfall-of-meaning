@@ -24,9 +24,8 @@
     "trie-prefix-tree": "^1.5.0"
   },
   "scripts": {
-    "mono": "cross-env NODE_ENV=development parcel mono.html --no-hmr --open",
-    "watch": "cross-env NODE_ENV=development parcel index.html input.html --no-hmr --open",
-    "build": "cross-env NODE_ENV=production parcel build mono.html index.html input.html --no-minify --public-url ./ && mv index.html in.html && mv -f mono.html index.html",
+    "watch": "cross-env NODE_ENV=development parcel index.html waterfall.html input.html --no-hmr --open",
+    "build": "cross-env NODE_ENV=production parcel build waterfall.html index.html input.html --no-minify --public-url ./",
     "link-local": "yalc link"
   },
   "devDependencies": {
